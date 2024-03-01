@@ -1,0 +1,42 @@
+body {
+    padding: 35px;
+}
+
+header h1 {
+    color: darkblue;
+}
+.profile-image{
+    width: 113px;
+    height: auto ;
+    position: relative;
+    top: 260px;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-column-gap: 5px;
+
+    .label {
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+}
+
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.pre-horizontal-line {
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.thong-tin-ca-nhan {
+    top: -100px;
+}
